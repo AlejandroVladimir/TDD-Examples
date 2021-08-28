@@ -15,6 +15,7 @@
 		FB21DD6E26D7D98A00284134 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB21DD6C26D7D98A00284134 /* LaunchScreen.storyboard */; };
 		FB21DD7926D7D98B00284134 /* TDD_ExamplesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB21DD7826D7D98B00284134 /* TDD_ExamplesTests.swift */; };
 		FB21DD8426D7D98C00284134 /* TDD_ExamplesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB21DD8326D7D98C00284134 /* TDD_ExamplesUITests.swift */; };
+		FB21DD9226D7DA8700284134 /* TDD-Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB21DD9126D7DA8700284134 /* TDD-Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FB21DD7F26D7D98C00284134 /* TDD-ExamplesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TDD-ExamplesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB21DD8326D7D98C00284134 /* TDD_ExamplesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TDD_ExamplesUITests.swift; sourceTree = "<group>"; };
 		FB21DD8526D7D98C00284134 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB21DD9126D7DA8700284134 /* TDD-Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TDD-Example.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FB21DD6026D7D98600284134 /* TDD-Examples */ = {
 			isa = PBXGroup;
 			children = (
+				FB21DD9126D7DA8700284134 /* TDD-Example.swift */,
 				FB21DD6126D7D98600284134 /* AppDelegate.swift */,
 				FB21DD6326D7D98600284134 /* SceneDelegate.swift */,
 				FB21DD6526D7D98600284134 /* ViewController.swift */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB21DD6626D7D98600284134 /* ViewController.swift in Sources */,
+				FB21DD9226D7DA8700284134 /* TDD-Example.swift in Sources */,
 				FB21DD6226D7D98600284134 /* AppDelegate.swift in Sources */,
 				FB21DD6426D7D98600284134 /* SceneDelegate.swift in Sources */,
 			);
